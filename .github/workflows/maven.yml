@@ -46,9 +46,3 @@ jobs:
           host: ${{ secrets.VPS_HOST }}
           username: ${{ secrets.VPS_USERNAME }}
           key: ${{ secrets.VPS_PRIVATE_KEY }}
-          script: |
-            # Add your deployment commands here
-            docker pull ayuaprliia/mjs-cicd:latest
-            docker stop your_container_name || true
-            docker rm your_container_name || true
-            docker run -d --name your_container_name -p 8080:8080 ayuaprliia/mjs-cicd:latest
