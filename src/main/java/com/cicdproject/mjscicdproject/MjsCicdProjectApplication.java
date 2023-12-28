@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MjsCicdProjectApplication {
 	@GetMapping("/welcome")
 	public String get(){
-		return "Manajemen Server 2023 Kelas C Ayu Agung Arya Aprilia dan Yurista Indani Sukma";
+		return "Manajemen Server 2023 Kelas C Ayu Agung Arya Aprilia (2205551030) dan Yurista Indani Sukma (2205551078)";
 	}
 
 	public static void main(String[] args) {
