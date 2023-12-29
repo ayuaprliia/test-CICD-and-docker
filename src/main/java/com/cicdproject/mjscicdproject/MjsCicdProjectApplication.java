@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MjsCicdProjectApplication {
 	@GetMapping("/welcome")
 	public String get(){
-		return "Manajemen Server Kelas C";
+		return "Manajemen Server Kelas C oleh Ayu Aprilia dan Yurista Indani";
 	}
 
 	public static void main(String[] args) {
